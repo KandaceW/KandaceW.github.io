@@ -20,7 +20,7 @@
 
 body {
     font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
-    font-size: 14px;
+    font-size: 10px;
     padding: 0 12px;
     line-height: 22px;
     word-wrap: break-word;
@@ -30,20 +30,20 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    color: white;
+    color: light-blue;
     margin: 16px;
     text-align: center;
-    font-size: 12px;
-    font-family: sans-serif;
-    background-color: #444444;
+    font-size: 9px;
+    font-family: Menlo;
+    background-color: #445324;
     cursor: pointer;
     padding: 6px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    box-shadow: 1px 1px 1px rgba(03, 0, 9, .43);
 }
 
 #code-csp-warning:hover {
     text-decoration: none;
-    background-color: #007acc;
+    background-color: #027acc;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
 }
 
