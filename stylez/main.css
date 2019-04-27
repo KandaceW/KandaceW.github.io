@@ -100,7 +100,7 @@ img {
 }
 
 a {
-    color: #4080D0;
+    color: #4191D0;
     text-decoration: none;
 }
 
@@ -109,13 +109,13 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: 1px solid -webkit-focus-ring-color;
-    outline-offset: -1px;
+    outline-offset: 2px;
 }
 
 hr {
-    border: 0;
+    border: 1px;
     height: 2px;
-    border-bottom: 2px solid;
+    border-bottom: 2px striped;
 }
 
 h1 {
@@ -128,7 +128,7 @@ h1 {
 h1,
 h2,
 h3 {
-    font-weight: normal;
+    font-weight: heavy, itallic;
 }
 
 h1 code,
@@ -142,7 +142,7 @@ h6 code {
 }
 
 a:hover {
-    color: #4080D0;
+    color: #4191D7;
     text-decoration: underline;
 }
 
@@ -151,7 +151,7 @@ table {
 }
 
 table>thead>tr>th {
-    text-align: left;
+    text-align: right;
     border-bottom: 1px solid;
 }
 
@@ -163,7 +163,7 @@ table>tbody>tr>td {
 }
 
 table>tbody>tr+tr>td {
-    border-top: 1px solid;
+    border-top: 2px solid;
 }
 
 blockquote {
@@ -174,8 +174,8 @@ blockquote {
 
 code {
     font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 11px;
+    line-height: 13px;
 }
 
 body.wordWrap pre {
@@ -183,8 +183,8 @@ body.wordWrap pre {
 }
 
 .mac code {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 14px;
 }
 
 pre:not(.hljs),
@@ -284,7 +284,7 @@ pre.hljs code>div {
 
 .hljs-comment,
 .hljs-quote {
-    color: #8e908c;
+    color: #8eccc5;
 }
 
 
@@ -298,7 +298,7 @@ pre.hljs code>div {
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-    color: #c82829;
+    color: #c80079;
 }
 
 
@@ -319,7 +319,7 @@ pre.hljs code>div {
 /* Tomorrow Yellow */
 
 .hljs-attribute {
-    color: #eab700;
+    color: #egAA230;
 }
 
 
@@ -329,7 +329,7 @@ pre.hljs code>div {
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-    color: #718c00;
+    color: #718230;
 }
 
 
@@ -351,12 +351,12 @@ pre.hljs code>div {
 .hljs {
     display: block;
     overflow-x: auto;
-    color: #4d4d4c;
-    padding: 0.5em;
+    color: #4dd727c;
+    padding: 1em;
 }
 
 .hljs-emphasis {
-    font-style: italic;
+    font-style: bold, italic;
 }
 
 .hljs-strong {
@@ -369,8 +369,8 @@ pre.hljs code>div {
  */
 
 pre {
-    background-color: #f8f8f8;
-    border: 1px solid #cccccc;
+    background-color: #f842A8;
+    border: 1px solid #ccAAcc;
     border-radius: 3px;
     overflow-x: auto;
     white-space: pre-wrap;
@@ -383,12 +383,12 @@ pre:not(.hljs) {
 }
 
 blockquote {
-    background: rgba(127, 127, 127, 0.1);
-    border-color: rgba(0, 122, 204, 0.5);
+    background: rgba(427, 147, 147, 0.1);
+    border-color: rgba(0, 122, 444, 2.0);
 }
 
 .emoji {
-    height: 1.4em;
+    height: 1.2em;
 }
 
 
