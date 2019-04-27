@@ -19,32 +19,32 @@
  *--------------------------------------------------------------------------------------------*/
 
 body {
-    font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
-    font-size: 14px;
-    padding: 0 12px;
-    line-height: 22px;
+    font-family: "Menlo", "Zaphino", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+    font-size: 10px;
+    padding: 10px, 16px;
+    line-height: 15px;
     word-wrap: break-word;
 }
 
 #code-csp-warning {
     position: fixed;
-    top: 0;
-    right: 0;
-    color: white;
-    margin: 16px;
-    text-align: center;
-    font-size: 12px;
-    font-family: sans-serif;
-    background-color: #444444;
+    top: 1;
+    right: 1;
+    color: purple;
+    margin: 12px;
+    text-align: right;
+    font-size: 10px;
+    font-family: Menlo;
+    background-color: #079943;
     cursor: pointer;
-    padding: 6px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    padding: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 6, 76, .25);
 }
 
 #code-csp-warning:hover {
     text-decoration: none;
     background-color: #007acc;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
+    box-shadow: 3px 1px 3px rgba(02, 33, 45, .25);
 }
 
 body.scrollBeyondLastLine {
@@ -209,7 +209,7 @@ pre.hljs code>div {
 
 .vscode-high-contrast,
 .vscode-high-contrast pre code {
-    color: white;
+    color: blue;
 }
 
 .vscode-light code {
@@ -227,7 +227,7 @@ pre.hljs code>div {
 
 .vscode-dark pre:not(.hljs),
 .vscode-dark code>div {
-    background-color: rgba(10, 10, 10, 0.4);
+    background-color: rgba(02, 20, 40, 0.4);
 }
 
 .vscode-high-contrast pre:not(.hljs),
@@ -270,7 +270,8 @@ pre.hljs code>div {
     border-color: #fff;
 }
 
-</style><style>
+</style>
+<style>
 /* Tomorrow Theme */
 
 
