@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="stylez/main.css" rel="stylesheet" type="text/css" />
+<link href="KandaceW.github.io/.github/stylez/" rel="stylesheet" type="text/css" />
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,9 +61,8 @@ There was a dark time  for me towards the end of my ownership I was faced with a
 <br>
 This is another reason EDA is were I want to be. To ask this of me shows they are wanting the right things from me as I do from them. People are the reason websites exist not technology People are what matter! I want to be apart of the future and shaping people in any way including through Technology! Thanks to the Dev Whanau for even just existing!
     Thank you for reading
+    
+   <p> Read enough yet: <a href="RETURN HOME">The a tag</a>
 </p>
 
 </body>
-
-</html>root = true [*] indent_style = space indent_size = 4 charset = utf-8 trim_trailing_whitespace = true insert_final_newline = trueroot = true [*] indent_style = space indent_size = 4 charset = utf-8 trim_trailing_whitespace = true insert_final_newline =
-true
