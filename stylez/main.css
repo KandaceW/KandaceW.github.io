@@ -1,4 +1,6 @@
 body {
+    margin: 800, 0px;
+    color: "aqua";
     background-color: "navy";
     font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
     font-size: 10px;
