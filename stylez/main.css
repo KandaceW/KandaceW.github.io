@@ -7,57 +7,26 @@ body {
     word-wrap: break-word;
 }
 
-<div id="mainset">> {
+div {
     position: fixed;
     top: 1;
     right: 1;
     color: "metalic-blue";
     margin-bottom: 400px;
-    Border: 2px solid #000
-    text: auto;
+    Border: 2px solid #000;
     font-size: 10px;
     font-family: "Menlo";
     background-color: "navy";
     cursor: pointer;
     padding: 15px;
     box-shadow: 1px 1px 1px rgba(11, 11, 11, .11);
-{      
-    h1,
-    h2,
-    h3 
+}
+
+h1,
+h2,
+h3 {
     font-weight: "bold, itallic";
 }
-{
-
-#code-csp-warning:hover {
-    text-decoration: none;
-    background-color: #027acc;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
-}
-
-body.scrollBeyondLastLine {
-    margin-bottom: calc(100vh - 22px);
-}
-
-body.showEditorSelection .code-line {
-    position: relative;
-}
-
-body.showEditorSelection .code-active-line:before,
-body.showEditorSelection .code-line:hover:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: -12px;
-    height: 100%;
-}
-
-body.showEditorSelection li.code-active-line:before,
-body.showEditorSelection li.code-line:hover:before {
-    left: -30px;
-}
-
 
 img {
     max-width: 100%;
@@ -68,72 +37,3 @@ a {
     color: #4191D0;
     text-decoration: none;
 }
-
-
-head {
-    border: 1px;
-    height: 2px;
-    border-bottom: 2px solid;
-}
-
-h1 {
-    padding-bottom: 0.3em;
-    line-height: 1.2;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: "bold, italic";
-}
-
-h1 code,
-h2 code,
-h3 code,
-h4 code,
-h5 code,
-h6 code {
-    font-size: inherit;
-    line-height: auto;
-}
-
-a:fixed {
-    color: #4191D7;
-    text-decoration: underline;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-table>thead>tr>th {
-    text-align: right;
-    border-bottom: 1px solid;
-}
-
-blockquote {
-    margin: 0 7px 0 5px;
-    padding: 0 16px 0 10px;
-    border-left: 5px solid;
-}
-
-code {
-    font-family: "Menlo, Monaco, Consolas, Droid Sans Mono, Courier New, monospace, Droid Sans Fallback";
-    font-size: 10px;
-    line-height: 13px;
-}
-
-body.wordWrap pre {
-    white-space: pre-wrap;
-}
-
-.mac code {
-    font-size: 10px;
-    line-height: 14px;
-}
-
-
-
-
