@@ -27,6 +27,8 @@ div {
 h1,
 h2,
 h3 {
+    font: "skia";
+    font-color: "purple-violet";
     font-weight: "bold, itallic";
 }
 
@@ -37,5 +39,9 @@ img {
 
 a {
     color: #4191D0;
-    text-decoration: none;
+    text-decoration: underline;
 }
+
+footer {
+    text: "K.I.W. Dev Student, Foundations 2019, Awesome place" />
+        
