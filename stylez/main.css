@@ -2,15 +2,15 @@ body {
     margin: 800, 0px;
     color: "aqua";
     background-color: "navy";
-    font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+    font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
     font-size: 10px;
-    padding: 0 14px;
-    line-height: 15px;
+    padding: 12 14px;
+    line-height: 20px;
     word-wrap: break-word;
 }
 
 div {
-    position: fixed;
+    position: "hover";
     top: 1;
     right: 1;
     color: "metalic-blue";
