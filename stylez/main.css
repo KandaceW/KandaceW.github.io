@@ -1,54 +1,52 @@
-body {
-    margin: 800, 0;
-    color: aqua; //"needed
-    background-color: "navy";
-    font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
-    font-size: 10px;
-    padding: 12 14px;
-    line-height: 20px;
-    word-wrap: break-word;
-}
-
-div {
-    position: realitive; //rel in red
-    top: 1;
-    right: 1;
-    color: "metalic-blue";
-    margin-bottom: 400px;
-    Border: 2px solid #000;
-    font-size: 15PX;
-    font-family: "Menlo";
-    background-color: "navy";
-    cursor: pointer;
-    padding: 15px;
-    box-shadow: 1px 1px 1px rgba(11, 11, 11, .11);
-    background-color: #222e71;
-    text-shadow: 1, 1, #011;
-    color: #ad749c;
-}
-
-div-1 {}
-
-div-2 {}
-
-h1,
-h2,
-h3 {
-    font: "skia";
-    font-color: "purple-violet";
-    font-weight: "bold, itallic";
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-a {
-    color: #4191D0;
-    text-decoration: underline;
-}
-
-footer {
-    text: "K.I.W. Dev Student, Foundations 2019, Awesome place" />
-
+                                                                                                       body {
+                                                                                                       margin: 800, 0;
+                                                                                                       color: "aqua";
+                                                                                                       background-color: "navy";
+                                                                                                       font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
+                                                                                                       font-size: 10px;
+                                                                                                       padding: 12 14px;
+                                                                                                       line-height: 20px;
+                                                                                                       word-wrap: "break-word";
+                                                                                                   }
+                                                                                                   
+                                                                                                   div {
+                                                                                                       position: realitive;
+                                                                                                       top: 1;
+                                                                                                       right: 1;
+                                                                                                       color: "metalic-blue";
+                                                                                                       margin-bottom: 400px;
+                                                                                                       Border: 0.5px, soli#000;
+                                                                                                       font-size: 15PX;
+                                                                                                       font-family: "Menlo";
+                                                                                                       background-color: "navy";
+                                                                                                       cursor: "pointer";
+                                                                                                       padding: 15px;
+                                                                                                       box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
+                                                                                                       background-color: #222e71;
+                                                                                                       text-shadow: 1, 1, #011;
+                                                                                                       color: #ad749c;
+                                                                                                   }
+                                                                                                   
+                                                                                                   div-1 {}
+                                                                                                   
+                                                                                                   div-2 {}
+                                                                                                   
+                                                                                                   h1,
+                                                                                                   h2,
+                                                                                                   h3 {
+                                                                                                       font: "skia";
+                                                                                                       font-color: "purple-violet";
+                                                                                                       font-weight: "bold, itallic";
+                                                                                                   }
+                                                                                                   
+                                                                                                   img {
+                                                                                                       max-width: 100%;
+                                                                                                       max-height: 100%;
+                                                                                                   }
+                                                                                                   
+                                                                                                   a {
+                                                                                                       color: rgb(97, 10, 179);
+                                                                                                       text-decoration: cap;
+                                                                                                   }
+                                                                                                   
+                                                                                                   footer {
