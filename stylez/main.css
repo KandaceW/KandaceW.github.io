@@ -1,63 +1,51 @@
-<<<<<<< HEAD
-    body {
-||||||| merged common ancestors
-body {
-=======
- body {
->>>>>>> 6ec5c47042fdeee43929b9606b1210fae6fd7b60
-    margin: 800, 0px;
-    color: "aqua";
-    background-color: "navy";
-    font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
-    font-size: 10px;
-    padding: 12 14px;
-    line-height: 20px;
-    word-wrap: break-word;
-}
-
-div {
-    position: "hover";
-    top: 1;
-    right: 1;
-    color: "metalic-blue";
-    margin-bottom: 400px;
-    Border: 2px solid #000;
-    font-size: 15PX;
-    font-family: "Menlo";
-    background-color: "navy";
-    cursor: pointer;
-    padding: 15px;
-    box-shadow: 1px 1px 1px rgba(11, 11, 11, .11);
-    background-color: #222e71;
-    text-shadow: 1 1 black;
-    color: #ad749c;
-}
-
-div {}
-
-div {}
-
-div {}
-
-div {}
-
-h1,
-h2,
-h3 {
-    font: "skia";
-    font-color: "purple-violet";
-    font-weight: "bold, itallic";
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-a {
-    color: #4191D0;
-    text-decoration: underline;
-}
-
-footer {
-    text: "K.I.W. Dev Student, Foundations 2019, Awesome place" />
+                                                                                                                                            <<<<<< HEAD body {
+                                                                                                                                ||||||| merged common ancestors body {
+                                                                                                                                    =======body {
+                                                                                                                                        >>>>>>>6ec5c47042fdeee43929b9606b1210fae6fd7b60 {
+                                                                                                                                            margin: 800, 0px;
+                                                                                                                                            color: aqua;
+                                                                                                                                            background-color: navy;
+                                                                                                                                            font-family: Menlo, Arial, Chalkboard, HelveticaNeue-Light, sans-serif, Droid Sans Fallback;
+                                                                                                                                            font-size: 10px;
+                                                                                                                                            padding: 12 14px;
+                                                                                                                                            line-height: 20px;
+                                                                                                                                            word-wrap: break-word;
+                                                                                                                                        }
+                                                                                                                                        div {
+                                                                                                                                            position: hover;
+                                                                                                                                            top: 1;
+                                                                                                                                            right: 1;
+                                                                                                                                            color: metalic-blue;
+                                                                                                                                            margin-bottom: 400px;
+                                                                                                                                            Border: 2px solid #000;
+                                                                                                                                            font-size: 15PX;
+                                                                                                                                            font-family: Menlo;
+                                                                                                                                            background-color: navy;
+                                                                                                                                            cursor: pointer;
+                                                                                                                                            padding: 15px;
+                                                                                                                                            box-shadow: 1px 1px 1px rgba(11, 11, 11, .11);
+                                                                                                                                            background-color: #222e71;
+                                                                                                                                            text-shadow: 1 1 black;
+                                                                                                                                            color: #ad749c;
+                                                                                                                                        }
+                                                                                                                                        div {}
+                                                                                                                                        div {}
+                                                                                                                                        div {}
+                                                                                                                                        div {}
+                                                                                                                                        h1,
+                                                                                                                                        h2,
+                                                                                                                                        h3 {
+                                                                                                                                            font: skia;
+                                                                                                                                            font-color: purple-violet;
+                                                                                                                                            font-weight: bold, itallic;
+                                                                                                                                        }
+                                                                                                                                        img {
+                                                                                                                                            max-width: 100%;
+                                                                                                                                            max-height: 100%;
+                                                                                                                                        }
+                                                                                                                                        a {
+                                                                                                                                            color: #4191D0;
+                                                                                                                                            text-decoration: underline;
+                                                                                                                                        }
+                                                                                                                                        footer {
+                                                                                                                                            text: "K.I.W. Dev Student, Foundations 2019, Awesome place"
