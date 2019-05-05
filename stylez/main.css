@@ -1,6 +1,6 @@
 body {
     margin: 800, 0;
-    color: aqua;
+    color: aqua; //"needed
     background-color: "navy";
     font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
     font-size: 10px;
@@ -10,7 +10,7 @@ body {
 }
 
 div {
-    position: realitive;
+    position: realitive; //rel in red
     top: 1;
     right: 1;
     color: "metalic-blue";
@@ -51,4 +51,4 @@ a {
 
 footer {
     text: "K.I.W. Dev Student, Foundations 2019, Awesome place" />
->>>>>>> 6513bd6f92e598bc80b3295b38a600ff458c534e
+
