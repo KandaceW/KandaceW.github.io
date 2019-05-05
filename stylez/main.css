@@ -10,12 +10,12 @@
                                                                                                                                                                }
                                                                                                                                                                
                                                                                                                                                                div {
-                                                                                                                                                                   position: realitive;
+                                                                                                                                                                   position: "realitive";
                                                                                                                                                                    top: 1;
                                                                                                                                                                    right: 1;
                                                                                                                                                                    color: "metalic-blue";
                                                                                                                                                                    margin-bottom: 400px;
-                                                                                                                                                                   Border: 0.5px, soli#000;
+                                                                                                                                                                   Border: 0.5px, solid#000;
                                                                                                                                                                    font-size: 15PX;
                                                                                                                                                                    font-family: "Menlo";
                                                                                                                                                                    background-color: "navy";
@@ -27,10 +27,12 @@
                                                                                                                                                                    color: #ad749c;
                                                                                                                                                                }
                                                                                                                                                                
-                                                                                                                                                               div-1 {
-                                                                                                                                                                   order: 0.5px, soli#000;
+                                                                                                                                                               div-1 { 
+                                                                                                                                                                   position: "realitive";
+                                                                                                                                                                   order: 0.5px, solid#000;
                                                                                                                                                                    font-size: 15PX;
                                                                                                                                                                    font-family: "Menlo";
+                                                                                                                                                                   color: "orange";
                                                                                                                                                                    background-color: "navy";
                                                                                                                                                                    cursor: "pointer";
                                                                                                                                                                }
