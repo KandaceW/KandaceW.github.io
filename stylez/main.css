@@ -1,4 +1,10 @@
-                                                                                                                                                               body {
+html {
+    background-color: #009688;
+    color: #E91E63;
+    
+}
+
+body {
                                                                                                                                                                    margin: 800, 0;
                                                                                                                                                                    color: "aqua";
                                                                                                                                                                    background-color: "navy";
