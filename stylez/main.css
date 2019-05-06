@@ -1,63 +1,63 @@
-    <<<<<<< HEAD html body div {
-        padding: 14px;
-        position: "realitive";
-        top: 1;
-        right: 1;
-        color: "metalic-blue";
-        margin-bottom: 400 px;
-        Border: 0.5 px, solid #000;
-        font-size: 15PX;
-        font-family: "Menlo";
-        background-color: "navy";
-        cursor: "pointer";
-        padding: 15px;
-        box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
-        background-color: #222e71;
-        text-shadow: 1, 1, #011;
-        color: #ad749c;
-    }
-    
-    div-1 {
-        position: "realitive";
-        top: 1;
-        right: 1;
-        color: "metalic-blue";
-        margin-bottom: 400 px;
-        Border: 0.5 px, solid #000;
-        font-size: 15PX;
-        font-family: "Menlo";
-        background-color: "navy";
-        cursor: "pointer";
-        padding: 15px;
-        box-shadow: 1px 1px 1px rgba(136, 4, 97, 0.11);
-        background-color: #222e71;
-        text-shadow: 1, 1, #011;
-        color: #ad749c;
-    }
-    
-    h1,
-    h2,
-    h3 {
-        font: "skia";
-        color: "purple-violet";
-        font-weight: bold, itallic;
-    }
-    
-    link img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
-    a {
-        color: "lime";
-    }
-    
-    footer {
-        color: purple-violet;
-        font: "skia";
-        margin: 800px, 10px, 10px, 10px;
-    }
-    
-    link {
-        color: lemon;
-    }
+html body div {
+    padding: 14px;
+    position: "realitive";
+    top: 1;
+    right: 1;
+    color: "metalic-blue";
+    margin-bottom: 400 px;
+    Border: 0.5 px, solid #000;
+    font-size: 15PX;
+    font-family: "Menlo";
+    background-color: "navy";
+    cursor: "pointer";
+    padding: 15px;
+    box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
+    background-color: #222e71;
+    text-shadow: 1, 1, #011;
+    color: #ad749c;
+}
+
+div-1 {
+    position: "realitive";
+    top: 1;
+    right: 1;
+    color: "metalic-blue";
+    margin-bottom: 400 px;
+    Border: 0.5 px, solid #000;
+    font-size: 15PX;
+    font-family: "Menlo";
+    background-color: "navy";
+    cursor: "pointer";
+    padding: 15px;
+    box-shadow: 1px 1px 1px rgba(136, 4, 97, 0.11);
+    background-color: #222e71;
+    text-shadow: 1, 1, #011;
+    color: #ad749c;
+}
+
+h1,
+h2,
+h3 {
+    font: "skia";
+    color: "purple-violet";
+    font-weight: bold, itallic;
+}
+
+link img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    color: "lime";
+}
+
+footer {
+    color: purple-violet;
+    font: "skia";
+    margin: 800px, 10px, 10px, 10px;
+}
+
+link {
+    color: lemon;
+}
