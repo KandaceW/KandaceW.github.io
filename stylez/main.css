@@ -1,16 +1,23 @@
-html body div {
+html 
+
+body {
+    position: auto, static;
+    
+footer= 
+
+
+
+div {
     padding: 14px;
-    position: "realitive";
-    top: 1;
-    right: 1;
-    color: "metalic-blue";
-    margin-bottom: 400 px;
-    Border: 0.5 px, solid #000;
-    font-size: 15PX;
-    font-family: "Menlo";
+    position: "realitive - absolute";
+    top: auto;
+    right: auto;
+    left: auto;
+    margin-bottom: 400px;
+    Border: 0.5px, solid #444;
+    font-size: 12PX;
+    font: "Menlo";
     background-color: "navy";
-    cursor: "pointer";
-    padding: 15px;
     box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
     background-color: #222e71;
     text-shadow: 1, 1, #011;
@@ -18,30 +25,48 @@ html body div {
 }
 
 div-1 {
-    position: "realitive";
-    top: 1;
-    right: 1;
-    color: "metalic-blue";
-    margin-bottom: 400 px;
-    Border: 0.5 px, solid #000;
-    font-size: 15PX;
-    font-family: "Menlo";
+    position: "realitive -div";
+    top: auto;
+    right: auto;
+    left: auto;
+    margin-bottom: 400px;
+    Border: 0.5px, solid #444;
+    font-size: 12PX;
+    font: "Menlo";
     background-color: "navy";
-    cursor: "pointer";
-    padding: 15px;
+    padding: 14px;
     box-shadow: 1px 1px 1px rgba(136, 4, 97, 0.11);
     background-color: #222e71;
     text-shadow: 1, 1, #011;
     color: #ad749c;
-}
+    }
+    
+div-2 {
+    position: auto, absolute;
+    margin: 900, 12, 12, 12;
+    color: "sky-blue";
+    font: "skia";
+    padding: 14px;
+    background-color: "soft-pink:;
+    font-size: 10px;
+    }
 
-h1,
+
+h1,{
+    position: auto;
+    font-style: italic, underline;
+    font-weight: bold;
+    colour: #0898765;
+    font: "skia";
+    font-size: 56px;
+    
 h2,
 h3 {
+    
     font: "skia";
     color: "purple-violet";
-    font-weight: bold, itallic;
-}
+    font-weight: bold;
+    }
 
 link img {
     max-width: 100%;
@@ -52,12 +77,7 @@ a {
     color: "lime";
 }
 
-footer {
-    color: purple-violet;
-    font: "skia";
-    margin: 800px, 10px, 10px, 10px;
-}
 
 link {
-    color: lemon;
+    color: "lemon";
 }
