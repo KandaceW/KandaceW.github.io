@@ -1,63 +1,83 @@
-<<<<<<< HEAD
-    body {
-||||||| merged common ancestors
+html 
+
 body {
-=======
- body {
->>>>>>> 6ec5c47042fdeee43929b9606b1210fae6fd7b60
-    margin: 800, 0px;
-    color: "aqua";
-    background-color: "navy";
-    font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
-    font-size: 10px;
-    padding: 12 14px;
-    line-height: 20px;
-    word-wrap: break-word;
-}
+    position: auto, static;
+    
+footer= 
+
+
 
 div {
-    position: "hover";
-    top: 1;
-    right: 1;
-    color: "metalic-blue";
+    padding: 14px;
+    position: "realitive - absolute";
+    top: auto;
+    right: auto;
+    left: auto;
     margin-bottom: 400px;
-    Border: 2px solid #000;
-    font-size: 15PX;
-    font-family: "Menlo";
+    Border: 0.5px, solid #444;
+    font-size: 12PX;
+    font: "Menlo";
     background-color: "navy";
-    cursor: pointer;
-    padding: 15px;
-    box-shadow: 1px 1px 1px rgba(11, 11, 11, .11);
+    box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
     background-color: #222e71;
-    text-shadow: 1 1 black;
+    text-shadow: 1, 1, #011;
     color: #ad749c;
 }
 
-div {}
+div-1 {
+    position: "realitive -div";
+    top: auto;
+    right: auto;
+    left: auto;
+    margin-bottom: 400px;
+    Border: 0.5px, solid #444;
+    font-size: 12PX;
+    font: "Menlo";
+    background-color: "navy";
+    padding: 14px;
+    box-shadow: 1px 1px 1px rgba(136, 4, 97, 0.11);
+    background-color: #222e71;
+    text-shadow: 1, 1, #011;
+    color: #ad749c;
+    }
+    
+div-2 {
+    position: auto, absolute;
+    margin: 900, 12, 12, 12;
+    color: "sky-blue";
+    font: "skia";
+    padding: 14px;
+    background-color: "soft-pink;
+    font-size: 10px;
+    }
 
-div {}
 
-div {}
-
-div {}
-
-h1,
+h1,{
+    position: auto;
+    font-style: italic, underline;
+    font-weight: bold;
+    colour: #0898765;
+    font: "skia";
+    font-size: 56px;
+    
 h2,
 h3 {
+    
     font: "skia";
-    font-color: "purple-violet";
-    font-weight: "bold, itallic";
-}
+    color: "purple-violet";
+    font-weight: bold;
+    }
 
-img {
+link img {
     max-width: 100%;
     max-height: 100%;
 }
 
 a {
-    color: #4191D0;
-    text-decoration: underline;
+    color: "lime";
 }
 
-footer {
-    text: "K.I.W. Dev Student, Foundations 2019, Awesome place" />
+
+link {
+    color: "lemon";
+}
