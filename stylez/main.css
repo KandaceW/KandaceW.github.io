@@ -1,3 +1,4 @@
+<<<<<<< HEAD
                                                                                                                                                                                                                                                                                                     html body div {
                                                                                                                                                                                                                                                                                                         padding: 14px;
                                                                                                                                                                                                                                                                                                         position: "realitive";
@@ -61,3 +62,73 @@
                                                                                                                                                                                                                                                                                                     link {
                                                                                                                                                                                                                                                                                                         color: lemon;
                                                                                                                                                                                                                                                                                                     }
+=======
+html {
+    background-color: #009688;
+    color: #E91E63;
+    
+}
+
+body {
+    margin: 800, 0;
+    color: "aqua";
+                                                                                                                                                                   background-color: "navy";
+                                                                                                                                                                   font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
+                                                                                                                                                                   font-size: 10px;
+                                                                                                                                                                   padding: 12 14px;
+                                                                                                                                                                   line-height: 20px;
+                                                                                                                                                                   word-wrap: "break-word";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               div {
+                                                                                                                                                                   position: "realitive";
+                                                                                                                                                                   top: 1;
+                                                                                                                                                                   right: 1;
+                                                                                                                                                                   color: "metalic-blue";
+                                                                                                                                                                   margin-bottom: 400px;
+                                                                                                                                                                   Border: 0.5px, solid#000;
+                                                                                                                                                                   font-size: 15PX;
+                                                                                                                                                                   font-family: "Menlo";
+                                                                                                                                                                   background-color: "navy";
+                                                                                                                                                                   cursor: "pointer";
+                                                                                                                                                                   padding: 15px;
+                                                                                                                                                                   box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
+                                                                                                                                                                   background-color: #222e71;
+                                                                                                                                                                   text-shadow: 1, 1, #011;
+                                                                                                                                                                   color: #ad749c;
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               div-1 { 
+                                                                                                                                                                   position: "realitive";
+                                                                                                                                                                   order: 0.5px, solid#000;
+                                                                                                                                                                   font-size: 15PX;
+                                                                                                                                                                   font-family: "Menlo";
+                                                                                                                                                                   color: "orange";
+                                                                                                                                                                   background-color: "navy";
+                                                                                                                                                                   cursor: "pointer";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               div-2 {}
+                                                                                                                                                               
+                                                                                                                                                               h1,
+                                                                                                                                                               h2,
+                                                                                                                                                               h3 {
+                                                                                                                                                                   font: "skia";
+                                                                                                                                                                   color: "purple-violet";
+                                                                                                                                                                   font-weight: "bold, itallic";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               img {
+                                                                                                                                                                   max-width: 100%;
+                                                                                                                                                                   max-height: 100%;
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               a {
+                                                                                                                                                                   color: "grey";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               footer {
+                                                                                                                                                                   font: "skia";
+                                                                                                                                                                   color: "purple-violet";
+                                                                                                                                                               }
+>>>>>>> 9ed4f36b60e9b92277711e0eadf8f97ca021d8d0
