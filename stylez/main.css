@@ -1,5 +1,20 @@
-html body {
-    position: '(auto, static)' (auto, static);
+html {
+    font-size: 10px;
+    font-family: " "Menlo", "Arial", "Droid Sans Fallback”;
+    font-size: "10px;" background-color: navy;
+    color: "hot-pin:" padding: "12, 14px;" line-height: "1px;" break-word: "br;" border-left: "1px;" border-right “1px;
+    "
+ border top: “1px”;
+    margin: "8 8;" margin-right: "10px";
+    margin-top: "10px";
+    position: "relative, 0, 0,0 ,0”;
+
+}
+
+p {
+    color: rgb(5, 170, 170);
+    width: 500px;
+    border: 1px solid rgb(70, 2, 70);
 }
 
 div-1 {
@@ -8,25 +23,24 @@ div-1 {
     right: auto;
     left: auto;
     margin-bottom: 400px;
-    Border: 0.5px, solid #444;
+    Border: 0.5px, solid rgb(78, 44, 122);
     font-size: 12PX;
     font: "Menlo";
-    background-color: navy;
+    background-color: rgb(30, 30, 212);
     padding: 14px;
-    box-shadow: 1px 1px 1px rgba(136, 4, 97, 0.11);
-    background-color: #222e71;
-    text-shadow: 1, 1, #011;
-    color: #ad749c;
+    box-shadow: 1px 1px 1px rgba(250, 3, 176, 0.11);
+    text-shadow: 1, 1, rgb(3, 95, 95);
+    color: #d82a7b;
 }
 
-div-2 {
+footer {
     position: auto, absolute;
     margin: 900, 12, 12, 12;
-    color: "sky-blue";
+    color: "black";
     font: "skia";
-    padding: 14px;
+    padding: 20px;
     background-color: "soft-pink";
-    font-size: 10px;
+    font-size: 16px;
 }
 
 h1 {
@@ -40,7 +54,6 @@ h1 {
 
 h2,
 h3 {
-    background-color: navy;
     font: "skia";
     color: "purple-violet";
     font-weight: bold;
