@@ -1,27 +1,35 @@
 body {
-   background-color: navy;
+   background-color: "glitternavy";
    text-align: center;
-   font-family: Skia, Menlo, Chalkboard, impact;
-
+   font-family: Skia, Menlo, Chalkboard, optima;
 }
+
+ <dict> {
+	<key>Background Image Location</key>
+	<string>/Users/kiwdev/Documents/Photo on 27-03-19 at 10.30 PM.jpg</string>
+	<key>Badge Color</key>
+</dict>
+}
+
 h1 {
-   font-size: 50pt;
+   font-size: 45pt;
+   font: optima;
 }
 p {
    font-size-adjust: 30pt;
-   color: silver;
+   color: cream;
 
 }
 
 button {
-   font: 1em impact;
-   color: gold;
+   font: 1em Skia;
+   color: cream;
 }
 
 a {
-   background-color: turquoise;
- box-shadow: 0 5px 0 violet;
- color: silver;
+   background-color: "dustyrose";
+ box-shadow: 1 5px 2 purple;
+ color: cream;
  padding: 1em 1.5em;
  position: relative;
  text-decoration: none;
@@ -29,7 +37,7 @@ a {
 }
 
 a:hover {
- background-color: #ce4774;
+ background-color: #0DAE44;
 }
 
 a:active {
