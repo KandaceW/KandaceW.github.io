@@ -1,89 +1,42 @@
-html {
-    font-size: 10px;
-    font-family: " "Menlo", "Arial", "Droid Sans Fallback”;
-    font-size: "10px;" background-color: navy;
-    color: "hot-pin:" padding: "12, 14px;" line-height: "1px;" break-word: "br;" border-left: "1px;" border-right “1px;
-    "
- border top: “1px”;
-    margin: "8 8;" margin-right: "10px";
-    margin-top: "10px";
-    position: "relative, 0, 0,0 ,0”;
+body {
+   background-color: navy;
+   text-align: center;
+   font-family: Skia, Menlo, Chalkboard, impact;
 
 }
-
-p {
-    color: rgb(5, 170, 170);
-    width: 500px;
-    border: 1px solid rgb(70, 2, 70);
-}
-
-div-1 {
-    position: realitive, div;
-    top: auto;
-    right: auto;
-    left: auto;
-    margin-bottom: 400px;
-    Border: 0.5px, solid rgb(78, 44, 122);
-    font-size: 12PX;
-    font: "Menlo";
-    background-color: rgb(30, 30, 212);
-    padding: 14px;
-    box-shadow: 1px 1px 1px rgba(250, 3, 176, 0.11);
-    text-shadow: 1, 1, rgb(3, 95, 95);
-    color: #d82a7b;
-}
-
-footer {
-    position: auto, absolute;
-    margin: 900, 12, 12, 12;
-    color: "black";
-    font: "skia";
-    padding: 20px;
-    background-color: "soft-pink";
-    font-size: 16px;
-}
-
 h1 {
-    position: auto;
-    font-style: italic, underline;
-    font-weight: bold;
-    colour: #089876;
-    font: "skia";
-    font-size: 56px;
+   font-size: 50pt;
+}
+p {
+   font-size-adjust: 30pt;
+   color: silver;
+
 }
 
-h2,
-h3 {
-    font: "skia";
-    color: "purple-violet";
-    font-weight: bold;
-}
-
-link img {
-    max-width: 100%;
-    max-height: 100%;
+button {
+   font: 1em impact;
+   color: gold;
 }
 
 a {
-    color: "lime";
+   background-color: turquoise;
+ box-shadow: 0 5px 0 violet;
+ color: silver;
+ padding: 1em 1.5em;
+ position: relative;
+ text-decoration: none;
+ text-transform: uppercase;
 }
 
-link {
-    color: lemon;
+a:hover {
+ background-color: #ce4774;
 }
 
-footer div-2 {
-    position: absolute, auto;
-    top: 400px;
-    right: auto;
-    left: auto;
-    margin-bottom: 10px;
-    Border: 0.5px, solid #444;
-    font-size: 12PX;
-    font: Menlo;
-    background-color: navy;
-    box-shadow: 1px, 1px, 1px, rgba(95, 4, 68, 0.11);
-    background-color: #222e71;
-    text-shadow: 1, 1, #011;
-    color: #ad749c;
+a:active {
+ box-shadow: none;
+ top: 5px;
+}
+
+img {
+   margin-top: 50px;
 }
