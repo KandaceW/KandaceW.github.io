@@ -1,19 +1,10 @@
 body {
-   background-color: "glitternavy";
+   background-color: navy;
    text-align: center;
-   font-family: Skia, Menlo, Chalkboard, optima;
-}
-
- <dict> {
-	<key>Background Image Location</key>
-	<string>/Users/kiwdev/Documents/Photo on 27-03-19 at 10.30 PM.jpg</string>
-	<key>Badge Color</key>
-</dict>
-}
-
-h1 {
+   color: cream;
    font-size: 45pt;
    font: optima;
+   padding: 10pt;
 }
 p {
    font-size-adjust: 30pt;
