@@ -1,12 +1,12 @@
 head,
 html {
-    background: black
+    background: "creme"
 }
 
 body {
-    background-color: navy;
+    background-color: aqua;
     text-align: center;
-    color: cream;
+    color: "cream"
     font-size: 45pt;
     font: optima;
     padding: 10px;
