@@ -1,41 +1,64 @@
-body {
-   background-color: navy;
-   text-align: center;
-   color: cream;
-   font-size: 45pt;
-   font: optima;
-   padding: 10pt;
+head,
+html {
+    background: black
 }
-p {
-   font-size-adjust: 30pt;
-   color: cream;
 
+body {
+    background-color: navy;
+    text-align: center;
+    color: cream;
+    font-size: 45pt;
+    font: optima;
+    padding: 10px;
+}
+
+p {
+    font-size-adjust: 30pt;
+    color: cream;
+}
+
+span {
+    font-style: italic
+}
+
+h1 {
+    font-size: 46pt
+}
+
+h2,
+h3,
+{
+    font-style: italic
 }
 
 button {
-   font: 1em Skia;
-   color: cream;
+    font: 1em Skia;
+    color: creme;
 }
 
 a {
-   background-color: "dustyrose";
- box-shadow: 1 5px 2 purple;
- color: cream;
- padding: 1em 1.5em;
- position: relative;
- text-decoration: none;
- text-transform: uppercase;
+    background-color: pink;
+    box-shadow: 5px, black;
+    color: cream;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:hover {
- background-color: #0DAE44;
+    background-color: rgb(20, 5, 87);
 }
 
 a:active {
- box-shadow: none;
- top: 5px;
+    box-shadow: none;
+    top: 5px;
 }
 
 img {
-   margin-top: 50px;
+    margin-top: 50px;
+}
+
+footer {
+    font-display: Menlo background-color: rgb(20, 5, 87);
 }
