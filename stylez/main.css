@@ -4,42 +4,43 @@ html {
 }
 
 body {
-    background-color: aqua;
+    background-color: #1b0266
+;
     text-align: center;
-    color: "cream"
+    font-color: #6754DA;
     font-size: 45pt;
-    font: optima;
+    font: Geneva;
     padding: 10px;
 }
 
 p {
     font-size-adjust: 30pt;
-    color: cream;
+    font-color-adjust: #9676f7;
 }
 
 span {
-    font-style: italic
+    font-style: italic;
+    font-colour-adjust: #67d4ef;
 }
 
 h1 {
-    font-size: 46pt
+    font-size: 70pt;
 }
 
 h2,
-h3,
-{
-    font-style: italic
+h3, {
+  font-style: italic;
 }
 
 button {
-    font: 1em Skia;
-    color: creme;
+    font: 1em arial;
+    color: #e4b3e5;
 }
 
 a {
-    background-color: pink;
-    box-shadow: 5px, black;
-    color: cream;
+    background-color: #e4b3e5;
+    box-shadow: 5px, #000;
+    text-color: #dee5ef;
     padding: 1em 1.5em;
     position: relative;
     text-decoration: none;
@@ -60,5 +61,7 @@ img {
 }
 
 footer {
-    font-display: Menlo background-color: rgb(20, 5, 87);
+    font: Menlo; 
+    background, #e4b3e5);
+    padding: 15px, 10px;
 }
