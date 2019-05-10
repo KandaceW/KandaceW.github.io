@@ -4,8 +4,7 @@ html {
 }
 
 body {
-    background-color: #1b0266
-;
+    background-color: #1b0266;
     text-align: center;
     font-color: #6754DA;
     font-size: 45pt;
@@ -14,8 +13,12 @@ body {
 }
 
 p {
-    font-size-adjust: 30pt;
-    font-color-adjust: #9676f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size-adjust: 30pt;
+  font-color-adjust: #9676f7;
 }
 
 span {
