@@ -1,79 +1,80 @@
+header {
+    display: inline-block, rgb(136, 29, 236);
+    color-adjust: #040404;
+}
+
 body {
-    display: inline-block, rgb(120, 84, 230);
-    border-color: #b4b4b4, 5px, border-inline: blur;
-    background-color: #210B61;
+    display: inline-block;
+    inset-block: active;
+    background-color: rgba(86, 43, 167, 0.404);
+    border: 15px;
+    border-color: #040c3f;
     text-align: left;
-    margin-left: 15px;
-    padding-left: 20px;
-    color: rgb(207, 203, 233);
-    font-size: 45pt;
+    margin-left: 50px;
+    color: rgb(07, 23, 24);
+    font-size: 50pt;
     font-variant: "menlo";
-    padding: 15px;
-}
-
-h1 {
-    font-size: 120pt;
-    padding: 20px;
-    font-family: initial;
-}
-
-h2,
-{
-    font-size: 65pt;
-    font-style: bold;
-    padding: 15px
-}
-
-h3,
-{
-    font size: 56pt;
-    font-style: italic;
-    padding: 10px;
 }
 
 div {
     border: 4px;
     border-color: rgb(20, 00, 04);
-    background-color: #2e10b4
+    background-color: #342962
+}
+
+h1 {
+    font-size: 70pt;
+    text-justify: impact;
+}
+
+h2 {
+    font-size: 35pt;
+    font-style: bold;
+}
+
+h3 {
+    font-size: 25pt;
+    font-style: italic;
 }
 
 p {
-    font-size-adjust: 30pt;
-    color: rgb(207, 203, 233);
+    font-size-adjust: 20pt;
+    color: rgb(114, 102, 192);
 }
 
 span {
-    background-color: #2aa4b4;
     font-style: italic;
-    font-size-adjust: 20pt;
-    color-adjust: #df0d9c;
+    font-size-adjust: 22pt;
+    column-rule-color: #df0d9c;
 }
 
 button {
     font: 1em initial;
-    color: #2e10b4;
-    background-color: #b4b4b4
+    color: #5e5875;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
 }
 
 a {
-    color: #988;
-    background-color: #2e10b4;
-    box-shadow: 10px, #000;
-    color: #000;
-    padding: 1em 1.5em;
-    position: relative, 5px, 5px, 5px, 5px;
+    color: rgba(78, 4, 148, 0.877);
+    box-shadow: 20px, #000;
+    color: rgba(5, 73, 5, 0);
+    padding: 10em, 5em;
+    position: relative;
     text-transform: uppercase;
 }
 
 a:active {
+    position: relative;
     box-shadow: 1px;
-    border-color: rgb(10, 6, 8), 5px;
+    border-color: rgb(10, 6, 8);
+    margin-left: 15px;
+    border-spacing: 20, 20, 20, 20px;
 }
 
 footer {
     border: 3px;
-    text-decoration-color: aquamarine;
     background-color: #1f0b3f;
     color: #2aa4b4;
-    padding: 10px;
+    border-spacing: 10, 10, 10, 10px;
 }
