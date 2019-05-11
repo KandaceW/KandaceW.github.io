@@ -55,13 +55,13 @@ span {
 button {
     font: 1em initial;
     color: #2e10b4;
-    background-color: #e4b3e5
+    background-color: #b4b4b4
 }
 
 a {
-    background-color: #e4b3e5;
+    background-color: #b4b4b4;
     box-shadow: 5px, #000;
-    text-color: #dee5ef;
+    color: #000;
     padding: 1em 1.5em;
     position: relative;
     text-decoration: none;
