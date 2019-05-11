@@ -1,29 +1,15 @@
-head,
-html {
-    background: "creme"
+header {
+    background: #210B61;
 }
 
 body {
-    background-color: #1b0266;
+    display: block, rgb(120, 84, 230);
+    background-color: #210B61;
     text-align: center;
-    font-color: #6754DA;
+    color: rgb(207, 203, 233);
     font-size: 45pt;
-    font: Geneva;
+    font-variant: "menlo";
     padding: 10px;
-}
-
-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size-adjust: 30pt;
-  font-color-adjust: #9676f7;
-}
-
-span {
-    font-style: italic;
-    font-colour-adjust: #67d4ef;
 }
 
 h1 {
@@ -31,13 +17,35 @@ h1 {
 }
 
 h2,
-h3, {
-  font-style: italic;
+h3,
+{
+    font-style: italic;
+}
+
+div {
+    padding-block-start: 5px, rgb(20, 00, 04);
+    padding-block-end: 5px, rgb(47, 84, 34);
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size-adjust: 30pt;
+    color: rgb(207, 203, 233);
+}
+
+span {
+    font-style: italic;
+    font-size-adjust: 20pt;
+    color-adjust: #df0d9c
 }
 
 button {
-    font: 1em arial;
-    color: #e4b3e5;
+    font: 1em skia;
+    color: #2e10b4;
+    background-color: #e4b3e5
 }
 
 a {
@@ -50,21 +58,14 @@ a {
     text-transform: uppercase;
 }
 
-a:hover {
-    background-color: rgb(20, 5, 87);
-}
-
 a:active {
-    box-shadow: none;
-    top: 5px;
-}
-
-img {
-    margin-top: 50px;
+    box-shadow: 1px;
+    border-color: rgb(10, 6, 8) top: 3px;
 }
 
 footer {
-    font: Menlo; 
-    background, #e4b3e5);
+    font: Menlo;
+    background-color: #210B61;
+    color: orange;
     padding: 15px, 10px;
 }
