@@ -74,10 +74,10 @@ a:active {
 }
 
 footer {
-    font: initial;
-    background-color: #210B61;
-    color: #098765;
-    padding: 60px;
-    border: 2px, #000;
-    brder-shadow_inline: 3px;
+    background: #000;
+    border: 3px;
+    text-decoration-color: aquamarine;
+    background-color: #812828;
+    color: #2aa4b4;
+    padding: 10px;
 }
