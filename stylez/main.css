@@ -32,24 +32,21 @@ h3,
 }
 
 div {
-    display: active;
-    padding-block-start: 5px, rgb(20, 00, 04);
-    padding-block-end: 5px, rgb(47, 84, 34);
+    border: 4px;
+    border-color: rgb(20, 00, 04);
+    background-color: #2e10b4
 }
 
 p {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
     font-size-adjust: 30pt;
     color: rgb(207, 203, 233);
 }
 
 span {
+    background-color: #2aa4b4;
     font-style: italic;
     font-size-adjust: 20pt;
-    color-adjust: #df0d9c
+    color-adjust: #df0d9c;
 }
 
 button {
@@ -64,21 +61,19 @@ a {
     box-shadow: 10px, #000;
     color: #000;
     padding: 1em 1.5em;
-    position: relative;
-    text-decoration: blanchedalmond;
+    position: relative, 5px, 5px, 5px, 5px;
     text-transform: uppercase;
 }
 
 a:active {
     box-shadow: 1px;
-    border-color: rgb(10, 6, 8) top: 3px;
+    border-color: rgb(10, 6, 8), 5px;
 }
 
 footer {
-    background: #000;
     border: 3px;
     text-decoration-color: aquamarine;
-    background-color: #812828;
+    background-color: #1f0b3f;
     color: #2aa4b4;
     padding: 10px;
 }
