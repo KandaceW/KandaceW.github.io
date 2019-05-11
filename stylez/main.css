@@ -1,7 +1,10 @@
 body {
     display: block, rgb(120, 84, 230);
+    border-color: #e4b3e5, 5px, border-inline: blur;
     background-color: #210B61;
-    text-align: center;
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 20px;
     color: rgb(207, 203, 233);
     font-size: 45pt;
     font-variant: "menlo";
@@ -29,6 +32,7 @@ h3,
 }
 
 div {
+    display: active;
     padding-block-start: 5px, rgb(20, 00, 04);
     padding-block-end: 5px, rgb(47, 84, 34);
 }
