@@ -1,6 +1,3 @@
-header {
-    background: #210B61;
-}
 
 body {
     display: block, rgb(120, 84, 230);
@@ -9,18 +6,27 @@ body {
     color: rgb(207, 203, 233);
     font-size: 45pt;
     font-variant: "menlo";
-    padding: 10px;
+    padding: 15px;
 }
 
 h1 {
-    font-size: 70pt;
+    font-size: 120pt;
+    padding:20px;
+    font-family: initial;
 }
 
-h2,
+h2, {
+    font-size: 65pt;
+    font-style: bold;
+    padding: 15px
+}
 h3,
 {
+    font size: 56pt;
     font-style: italic;
+    padding: 10px;
 }
+
 
 div {
     padding-block-start: 5px, rgb(20, 00, 04);
@@ -43,7 +49,7 @@ span {
 }
 
 button {
-    font: 1em skia;
+    font: 1em initial;
     color: #2e10b4;
     background-color: #e4b3e5
 }
@@ -64,8 +70,10 @@ a:active {
 }
 
 footer {
-    font: Menlo;
+    font: initial;
     background-color: #210B61;
-    color: orange;
-    padding: 15px, 10px;
+    color: #098765;
+    padding: 60px;
+    border: 2px, #000;
+    brder-shadow_inline: 3px; 
 }
