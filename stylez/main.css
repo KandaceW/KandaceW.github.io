@@ -1,6 +1,6 @@
 body {
-    display: block, rgb(120, 84, 230);
-    border-color: #e4b3e5, 5px, border-inline: blur;
+    display: inline-block, rgb(120, 84, 230);
+    border-color: #b4b4b4, 5px, border-inline: blur;
     background-color: #210B61;
     text-align: left;
     margin-left: 15px;
