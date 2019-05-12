@@ -1,0 +1,112 @@
+header {
+    display: inline-block, rgb(60, 3, 114);
+    border: 3px, rgb(6, 2, 24);
+    color-adjust: #8288a7;
+}
+
+body {
+    display: inline-block;
+    inset-block: active;
+    box-shadow: 1px 1px 0px 3px black;
+    padding: 20px;
+    border: 15px;
+    border-color: #040c3f;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    background-color: #024;
+    font-family: monospace;
+    text-align: center;
+    font-size: 45pt;
+    font-variant: "menlo";
+    color: #3935a5;
+    text-shadow: 0 0 #140b2b;
+    color: #502ebe;
+}
+
+div {
+    display: active;
+    background-position: 80%;
+    border: 4px;
+    border-color: rgb(6, 2, 24);
+    background-color: #2b1b6f;
+    box-shadow: 0 0 17px 3px #4835c7;
+    padding-left: 25px;
+    padding-top: 25xpx, initial;
+    content: absolute;
+    color: aquamarine;
+    text-shadow: 4 4 3px #030316;
+    box-shadow: 0 0 20px 8px #5f4bde;
+}
+
+h1 {
+    font-size-adjust: 60pt;
+    text-align: center;
+    margin: 20px;
+    color-adjust: #c8046d;
+}
+
+h2 {
+    font-size-adjust: 35pt;
+    font-style: bold;
+    color-adjust: #ec5185;
+}
+
+h3 {
+    font-size-adjust: 25pt;
+    font-style: italic;
+    color-adjust: ##c8046d;
+}
+
+p {
+    font-size-adjust: 20pt;
+    color: rgb(107, 11, 205);
+    background-color: #a492db;
+    BORDER: initial;
+    margin: auto;20px: initial
+    color: #7fffd4;
+    box-shadow: 3px, #2a095a;
+    text-shadow: 0 0 4px, black;
+    display: inline-block;
+    display: center;
+    box-shadow: inset 0 0 5px 4px #6152a8;
+    /* color: black; */
+    text-shadow: 0 0 20px #210695;
+}
+
+span {
+    display: table-column;
+    inset-block: 15pt;
+    font-style: italic;
+    font-size-adjust: 22pt;
+    column-rule-color: #df0d9c;
+}
+
+button {
+    font: 1em initial;
+    margin-inline-start: 30px;
+    margin-inline-end: 20px;
+    min-inline-size: relative;
+}
+
+a {
+    position: static;
+    background-color: #089097;
+    color: #e809a6;
+    box-shadow: 20px, #000;
+    padding: 15em, 15em;
+    text-transform: uppercase;
+}
+
+a:active {
+    border-color: rgb(10, 6, 8);
+    margin-left: 15px;
+    border-spacing: 20, 20, 20, 20px;
+}
+
+footer {
+    border: 3px;
+    padding: 20x;
+    background-color: #1f0b3f;
+    color: #2aa4b4;
+    border-spacing: 30, 10, 10, 10px;
+}

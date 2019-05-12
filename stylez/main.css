@@ -1,80 +1,68 @@
-header {
-    display: inline-block, rgb(136, 29, 236);
-    color-adjust: #040404;
+html {
+    background-color: #009688;
+    color: #E91E63;
+    
 }
 
 body {
-    display: inline-block;
-    inset-block: active;
-    background-color: rgba(86, 43, 167, 0.404);
-    border: 15px;
-    border-color: #040c3f;
-    text-align: left;
-    margin-left: 50px;
-    color: rgb(07, 23, 24);
-    font-size: 50pt;
-    font-variant: "menlo";
-}
-
-div {
-    border: 4px;
-    border-color: rgb(20, 00, 04);
-    background-color: #342962
-}
-
-h1 {
-    font-size: 70pt;
-    text-justify: impact;
-}
-
-h2 {
-    font-size: 35pt;
-    font-style: bold;
-}
-
-h3 {
-    font-size: 25pt;
-    font-style: italic;
-}
-
-p {
-    font-size-adjust: 20pt;
-    color: rgb(114, 102, 192);
-}
-
-span {
-    font-style: italic;
-    font-size-adjust: 22pt;
-    column-rule-color: #df0d9c;
-}
-
-button {
-    font: 1em initial;
-    color: #5e5875;
-    margin-inline-start: 30px;
-    margin-inline-end: 30px;
-}
-
-a {
-    color: rgba(78, 4, 148, 0.877);
-    box-shadow: 20px, #000;
-    color: rgba(5, 73, 5, 0);
-    padding: 10em, 5em;
-    position: relative;
-    text-transform: uppercase;
-}
-
-a:active {
-    position: relative;
-    box-shadow: 1px;
-    border-color: rgb(10, 6, 8);
-    margin-left: 15px;
-    border-spacing: 20, 20, 20, 20px;
-}
-
-footer {
-    border: 3px;
-    background-color: #1f0b3f;
-    color: #2aa4b4;
-    border-spacing: 10, 10, 10, 10px;
-}
+                                                                                                                                                                   margin: 800, 0;
+                                                                                                                                                                   color: "aqua";
+                                                                                                                                                                   background-color: "navy";
+                                                                                                                                                                   font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
+                                                                                                                                                                   font-size: 10px;
+                                                                                                                                                                   padding: 12 14px;
+                                                                                                                                                                   line-height: 20px;
+                                                                                                                                                                   word-wrap: "break-word";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               div {
+                                                                                                                                                                   position: "realitive";
+                                                                                                                                                                   top: 1;
+                                                                                                                                                                   right: 1;
+                                                                                                                                                                   color: "metalic-blue";
+                                                                                                                                                                   margin-bottom: 400px;
+                                                                                                                                                                   Border: 0.5px, solid#000;
+                                                                                                                                                                   font-size: 15PX;
+                                                                                                                                                                   font-family: "Menlo";
+                                                                                                                                                                   background-color: "navy";
+                                                                                                                                                                   cursor: "pointer";
+                                                                                                                                                                   padding: 15px;
+                                                                                                                                                                   box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
+                                                                                                                                                                   background-color: #222e71;
+                                                                                                                                                                   text-shadow: 1, 1, #011;
+                                                                                                                                                                   color: #ad749c;
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               div-1 { 
+                                                                                                                                                                   position: "realitive";
+                                                                                                                                                                   order: 0.5px, solid#000;
+                                                                                                                                                                   font-size: 15PX;
+                                                                                                                                                                   font-family: "Menlo";
+                                                                                                                                                                   color: "orange";
+                                                                                                                                                                   background-color: "navy";
+                                                                                                                                                                   cursor: "pointer";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               div-2 {}
+                                                                                                                                                               
+                                                                                                                                                               h1,
+                                                                                                                                                               h2,
+                                                                                                                                                               h3 {
+                                                                                                                                                                   font: "skia";
+                                                                                                                                                                   color: "purple-violet";
+                                                                                                                                                                   font-weight: "bold, itallic";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               img {
+                                                                                                                                                                   max-width: 100%;
+                                                                                                                                                                   max-height: 100%;
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               a {
+                                                                                                                                                                   color: "grey";
+                                                                                                                                                               }
+                                                                                                                                                               
+                                                                                                                                                               footer {
+                                                                                                                                                                   font: "skia";
+                                                                                                                                                                   color: "purple-violet";
+                                                                                                                                                               }
