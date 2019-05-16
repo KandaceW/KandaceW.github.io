@@ -1,68 +1,40 @@
 html {
-    background-color: #009688;
-    color: #E91E63;
-    
-}
+    static: block, absolute, #000;
+    margiin: auto, 4px;
 
-body {
-                                                                                                                                                                   margin: 800, 0;
-                                                                                                                                                                   color: "aqua";
-                                                                                                                                                                   background-color: "navy";
-                                                                                                                                                                   font-family: "Menlo", "Arial", "Chalkboard", "HelveticaNeue-Light", "sans-serif", "Droid Sans Fallback";
-                                                                                                                                                                   font-size: 10px;
-                                                                                                                                                                   padding: 12 14px;
-                                                                                                                                                                   line-height: 20px;
-                                                                                                                                                                   word-wrap: "break-word";
-                                                                                                                                                               }
-                                                                                                                                                               
-                                                                                                                                                               div {
-                                                                                                                                                                   position: "realitive";
-                                                                                                                                                                   top: 1;
-                                                                                                                                                                   right: 1;
-                                                                                                                                                                   color: "metalic-blue";
-                                                                                                                                                                   margin-bottom: 400px;
-                                                                                                                                                                   Border: 0.5px, solid#000;
-                                                                                                                                                                   font-size: 15PX;
-                                                                                                                                                                   font-family: "Menlo";
-                                                                                                                                                                   background-color: "navy";
-                                                                                                                                                                   cursor: "pointer";
-                                                                                                                                                                   padding: 15px;
-                                                                                                                                                                   box-shadow: 1px 1px 1px rgba(95, 4, 68, 0.11);
-                                                                                                                                                                   background-color: #222e71;
-                                                                                                                                                                   text-shadow: 1, 1, #011;
-                                                                                                                                                                   color: #ad749c;
-                                                                                                                                                               }
-                                                                                                                                                               
-                                                                                                                                                               div-1 { 
-                                                                                                                                                                   position: "realitive";
-                                                                                                                                                                   order: 0.5px, solid#000;
-                                                                                                                                                                   font-size: 15PX;
-                                                                                                                                                                   font-family: "Menlo";
-                                                                                                                                                                   color: "orange";
-                                                                                                                                                                   background-color: "navy";
-                                                                                                                                                                   cursor: "pointer";
-                                                                                                                                                               }
-                                                                                                                                                               
-                                                                                                                                                               div-2 {}
-                                                                                                                                                               
-                                                                                                                                                               h1,
-                                                                                                                                                               h2,
-                                                                                                                                                               h3 {
-                                                                                                                                                                   font: "skia";
-                                                                                                                                                                   color: "purple-violet";
-                                                                                                                                                                   font-weight: "bold, itallic";
-                                                                                                                                                               }
-                                                                                                                                                               
-                                                                                                                                                               img {
-                                                                                                                                                                   max-width: 100%;
-                                                                                                                                                                   max-height: 100%;
-                                                                                                                                                               }
-                                                                                                                                                               
-                                                                                                                                                               a {
-                                                                                                                                                                   color: "grey";
-                                                                                                                                                               }
-                                                                                                                                                               
-                                                                                                                                                               footer {
-                                                                                                                                                                   font: "skia";
-                                                                                                                                                                   color: "purple-violet";
-                                                                                                                                                               }
+head {
+    colur: ivory;
+    }
+
+body= div-main.style {
+    element: inline;
+    position: absolute;
+    background-color: velvet;
+    border: auto, 5px;
+    border-color: aqua;
+    box-shaddow:5p, blured 40%, inset;
+    font-family: curvasive;
+    fonsize-adjustable: 15pt,
+    padding: 15px, auto
+    }
+    
+header= head.style {
+   element-position: Fixed 
+   text: center
+   font-type: curvasive;
+   font-color: ivory;
+    
+    }
+
+h2,
+h3,
+
+p
+
+h2=h2-flash.style
+
+
+//need to assign class to an element or tag
+link.style
+
+footer
