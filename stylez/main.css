@@ -1,10 +1,10 @@
-                .head {
-                    static: block, absolute, #000;
+                .behindDefault {  
+                    Position: block, absolute, #000;
                     margin: auto, 4px;
-                    color: ivory;
+                    margin-color: ivory;
                 }
                 
-                body .div-main {
+                .div-main {
                     element: block;
                     position: absolute;
                     background-color: (0, 0, 1);
@@ -23,7 +23,7 @@
                 }
                 
                 p {
-                    ] font: 1em sans-serif;
+                   font: 1em sans-serif;
                 }
                 
                 h2,
@@ -34,7 +34,7 @@
                     colour: baby-blue;
                 }
                 
-                .headingflash {
+                .span-flash {
                     padding: 20px;
                     element: fixed;
                     block-color: rgb(29, 66, 44);
