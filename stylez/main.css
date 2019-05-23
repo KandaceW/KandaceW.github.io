@@ -1,76 +1,53 @@
-html body {
-    position: '(auto, static)' (auto, static);
-}
-
-div-1 {
-    position: realitive, div;
-    top: auto;
-    right: auto;
-    left: auto;
-    margin-bottom: 400px;
-    Border: 0.5px, solid #444;
-    font-size: 12PX;
-    font: "Menlo";
-    background-color: navy;
-    padding: 14px;
-    box-shadow: 1px 1px 1px rgba(136, 4, 97, 0.11);
-    background-color: #222e71;
-    text-shadow: 1, 1, #011;
-    color: #ad749c;
-}
-
-div-2 {
-    position: auto, absolute;
-    margin: 900, 12, 12, 12;
-    color: "sky-blue";
-    font: "skia";
-    padding: 14px;
-    background-color: "soft-pink";
-    font-size: 10px;
-}
-
-h1 {
-    position: auto;
-    font-style: italic, underline;
-    font-weight: bold;
-    colour: #089876;
-    font: "skia";
-    font-size: 56px;
-}
-
-h2,
-h3 {
-    background-color: navy;
-    font: "skia";
-    color: "purple-violet";
-    font-weight: bold;
-}
-
-link img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-a {
-    color: "lime";
-}
-
-link {
-    color: lemon;
-}
-
-footer div-2 {
-    position: absolute, auto;
-    top: 400px;
-    right: auto;
-    left: auto;
-    margin-bottom: 10px;
-    Border: 0.5px, solid #444;
-    font-size: 12PX;
-    font: Menlo;
-    background-color: navy;
-    box-shadow: 1px, 1px, 1px, rgba(95, 4, 68, 0.11);
-    background-color: #222e71;
-    text-shadow: 1, 1, #011;
-    color: #ad749c;
-}
+                .behindDefault {  
+                    Position: block, absolute, #000;
+                    margin: auto, 4px;
+                    margin-color: ivory;
+                }
+                
+                .div-main {
+                    element: block;
+                    position: absolute;
+                    background-color: (0, 0, 1);
+                    border: auto, 5px;
+                    border-color: aqua;
+                    box-shaddow: 5p, blured 40%, inset;
+                    font-family: curvasive;
+                    fonsize-adjustable: 15pt, padding: 15px, auto
+                }
+                
+                .headerstyle {
+                    element-position: Fixed;
+                    text: center;
+                    font-type: curvasive;
+                    font-color: ivory;
+                }
+                
+                p {
+                   font: 1em sans-serif;
+                }
+                
+                h2,
+                h3,
+                {
+                    fontf-family: inherit;
+                    text-align: right;
+                    colour: baby-blue;
+                }
+                
+                .span-flash {
+                    padding: 20px;
+                    element: fixed;
+                    block-color: rgb(29, 66, 44);
+                    font-colour: pink;
+                }
+                
+                nav a {
+                    color: white;
+                    background-color: #003399;
+                    /* dark blue */
+                    text-decoration: none;
+                }
+                
+                footer {
+                    text: "K.I.W. Dev Student, Foundations 2019, Awesome place" M
+                }
