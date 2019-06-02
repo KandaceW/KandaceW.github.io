@@ -1,18 +1,20 @@
-html {
-    position: fixed;
-    border: 95%, black, 2px;
-}
-
-.head {
+#heads {
     border: 90%, rgb(76, 13, 136), 1px;
     position: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-origin: content-box;
+    background-color: blue;
 }
 
-.title {
+#title {
     display: inline-flex;
     margin: 70%;
     padding: 10px;
     color-adjust: rgb(202, 902, 202)
+}
+
+.div-main-style {
+    display: inline;
+    position: flex;
+    background-color: blue;
+    padding: 15px;
 }
