@@ -1,3 +1,11 @@
 html {
-    body
+    position: fixed;
+    border: 95%, black, 2px;
+}
+
+head {
+    border: 90%, blueviolet, 1px;
+    position: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-origin: content-box;
 }
