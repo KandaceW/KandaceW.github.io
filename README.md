@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="KandaceW.github.io/.github/stylez/" rel="stylesheet" type="text/css" />
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,3 +66,4 @@ This is another reason EDA is were I want to be. To ask this of me shows they ar
 </p>
 
 </body>
+</html>
