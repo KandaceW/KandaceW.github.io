@@ -12,11 +12,12 @@
     color-adjust: rgb(202, 902, 202)
 }
 
-.div-main-style {
-    display: inline;
+#div-main-style {
+    display: inline-block, solid;
     position: flex;
     background-color: blue;
     padding: 15px;
+    border: solid, 2px, black;
 }
 
 #div1 {
