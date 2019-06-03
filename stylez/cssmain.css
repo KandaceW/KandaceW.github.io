@@ -1,3 +1,38 @@
+.container{
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-columns: 2fr 5fr 3fr;
+  grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+  grid-gap: .75em;
+}
+
+header{
+    grid-area: header;
+    background-color: teal;
+}
+nav{
+    grid-area: nav;
+    background-color: tomato;
+}
+main{
+    grid-area: main;
+    background-color: blue;
+    border: solid, 2px, black;
+}
+
+
+aside{
+    grid-area: aside;
+    background-color: rgba(252, 9, 90, 0.623);
+}
+footer{
+    grid-area: footer;
+    background-color: lightgreen;
+}
+
 body {
     display: auto;
     position: auto;
@@ -22,14 +57,3 @@ h1 {
     padding: 10px;
     color-adjust: rgb(202, 902, 202)
 }
-.nav-a {
-    color: pink;
-    font-style: oblique
-      text: inherit
-}
-
-.nav-a-hover {
-        block: transparent, green;
-}
-
-#
