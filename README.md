@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="KandaceW.github.io/.github/stylez/" rel="stylesheet" type="text/css" />
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,7 +10,6 @@
 <head>
     <title> intro to my web site</title>
     <meta charset="UTF-8">
-    <link href="stylez/main.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
