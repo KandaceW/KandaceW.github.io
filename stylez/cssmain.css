@@ -1,6 +1,11 @@
-html {
-    display: realitive;
+body {
+    display: auto;
+    position: auto;
+    background-color: blue;
+    padding: 50px, pink;
+    border: solid, 2px, black;
 }
+
 
 h2 {
     border: 90%, rgb(76, 13, 136), 1px;
@@ -10,7 +15,7 @@ h2 {
 }
 
 h1 {
-    font-adjust: bold, oblique;
+    font-size-adjust: bold, oblique;
     background-color: block, aqua;
     display: inline-flex;
     margin: 70%;
@@ -26,14 +31,5 @@ h1 {
 .nav-a-hover {
         block: transparent, green;
 }
-#div-main-style {
-    display: flex, solid;
-    position: auto;
-    background-color: blue;
-    padding: 15px;
-    border: solid, 2px, black;
-}
 
-#div1 {
-  display: content;
-}
+#
