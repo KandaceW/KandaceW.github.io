@@ -1,1 +1,63 @@
-
+ div-1 body {
+     margin: 1px;
+     background-image: url(//scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/29261839_10156024675595140_5884031339262377984_n.jpg?_nc_cat=102&_nc_ht=scontent-syd2-1.xx&oh=870fc3673935d5cea11a93482fbe0253&oe=5D917212), fixed;
+     display: block;
+     border: solid, 2px, black;
+     font: normal, menlo, inherit;
+     color: cyan;
+     padding: 10px, white;
+ }
+ 
+ header {
+     position: inline-flex;
+     display: inline orange;
+     margin: 20%;
+     border: solid black
+ }
+ 
+ span {
+     margin: auto;
+     display: inline-flex;
+     background-color: aqua;
+     font-style: oblique;
+ }
+ 
+ h1 h2 h3 {
+     display: inline-flex;
+     text-align: auto;
+     font-variant: skia, bold, underline;
+     color-adjust: black;
+     padding: 10px, rgb(198, 111, 233);
+ }
+ 
+ .button {
+     display: inline-flex, black;
+     object-position: center;
+     color: antiquewhite;
+     fill: black
+ }
+ 
+ p {
+     padding: 20px, rgb(188, 222, 332);
+     font-variant: normal arial;
+ }
+ 
+ .nav {
+     display: fixed, inline-block, rgb(000);
+     inline-size: auto 70%;
+     padding: 20px white;
+ }
+ 
+ .li {
+     list-style-type: circle;
+ }
+ 
+ div-1 div-2 .footer {
+     display: block, black solid;
+     color-adjust: aliceblue;
+     font-variant: small-caps;
+     font: menlo;
+     text-shadow: 10px, blue;
+ }
+ 
+ div-2
