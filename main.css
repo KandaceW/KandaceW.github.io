@@ -1,4 +1,29 @@
-body {
-    background-image: "styles/images/reunion.jpg";
-    size: cover;
+*{
+    box-sizing: border-box;
 }
+
+body {
+    display: block;
+    align-content: center, space-between;
+    background-image: "/reunion.jpg";
+    padding: 15px, aqua;
+	margin: 120%;	
+    color: rgb(52, 8, 95);
+    font-family: 'Open Sans';
+}
+header {
+    display: inline-flex;
+    background: black;
+    color: rgb(83, 51, 187);
+}
+
+section {
+    padding: 20px, rgb(52, 3, 143);
+    display: flex;
+    box-align: center;
+    color: aqua;
+}
+/* body {
+    background-image: "styles/images/reunion.jpg";
+    size: cover; */
+
