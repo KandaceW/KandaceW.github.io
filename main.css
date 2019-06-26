@@ -1,11 +1,12 @@
-*{
+* {
+    display: flex;
     box-sizing: border-box;
 }
 
 body {
-    display: block;
+    display: flex;
     align-content: center, space-between;
-    background-image: "/reunion.jpg";
+    background-image: "./reunion.jpg";
     padding: 15px, aqua;
 	margin: 120%;	
     color: rgb(52, 8, 95);
