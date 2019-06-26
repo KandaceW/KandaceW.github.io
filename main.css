@@ -6,7 +6,7 @@
 body {
     display: flex;
     align-content: center, space-between;
-    background-image: "./reunion.jpg";
+    background-image: "/images/reunion.jpg";
     padding: 15px, aqua;
 	margin: 120%;	
     color: rgb(52, 8, 95);
@@ -18,7 +18,7 @@ header {
     color: rgb(83, 51, 187);
 }
 
-section {
+article {
     padding: 20px, rgb(52, 3, 143);
     display: flex;
     box-align: center;
