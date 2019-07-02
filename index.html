@@ -18,9 +18,9 @@
         
         body { 
             background-color: navy;
-            background-image: url("https://github.com/KandaceW/KandaceW.github.io/blob/master/styles/images/reunion.jpg?raw=true");
+            background-image: url("https://github.com/KandaceW/KandaceW.github.io/blob/master/styles/images/blueboards.png?raw=true");
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: cover;
             background-attachment: fixed;
         }
             header {
@@ -31,22 +31,34 @@
             background-color: white;
             opacity: 0.3;        
         }
-           .div0 {
-           position: fixed;
-           margin-top 80px;
-           margin-left: 10px;
+        /* Create three equal columns that floats next to each other */
+
+
+/* Clear floats after the columns */
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+          
+          
+          .column {
+           float: left;
+           width: 33.33%;
            background-color: turquiose;
            width: 250px;
            color: white;
-               opacity: 0.2;
+           opacity: 0.2;
         }
-            .div1 {
-            position: fixed;
-            margin-top 80px;
-            margin-right 10px;
-            width: 250px;
+           .row:after {
+            content: "";
+            display: table;
+            clear: both;
             background-color: turquiose; 
-                opacity: 0.2;
+            opacity: 0.2;
         }
            .spanner {
             background-color: white;
@@ -84,7 +96,7 @@
                      <br>
         <h3 style="align-content: center;"> Take a sec and check out my links to Technical & Cultral Blogs below </h3>
     </header>
-    <div class="div0>
+    <div class="columm>
        
             <ul class="list">
                 <li><button> Core values </button></li>  <a href="blogs/values-identy-blog.html"></a>
@@ -93,7 +105,7 @@
             </ul>
         
      </div>
-     <div class="div1>
+     <div class="row:after>
         
             <ul>
                 <li><button herf="blogs/sp2-technicalblog.html"> Technical element positioning </button></li> 
