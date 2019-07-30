@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  background-image: url("styles/images/blueboards.png");
+}
+
+#bodyhead, .header {
+  display: inline-flex;
+  background-image: url("styles/images/reunion.jpg");
+  width: 90%;
+  height: 30%;
+  margin-top: 20p;
+}
+.header {
+  display: flex;
+  position: inherit;
+  background-color: #06879e;
+  align-content: center;
+  text-align: center;
+}
+.header, h1 {
+  background-color: cream;
+  padding: 10px;
+  font-family: fantasy;
+  font-size: 45px;
+  text-align: center;
+  color: #011013;
+}
+.header, h2 {
+  background-color: cream, opacity 70%;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #011013;
+}
+.header, h3 { 
+  background-color: cream, opacity 70%;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #011013;
+}
+#bodycore {
+  display: inline-flex;
+  position: auto;
+  background-color: cream, opacity 70%;
+  width: 90%;
+  height: 50%;
+}
+.corelist {
+  display: block;
+  position: inherit;
+  margin-left: 10%;
+  margin-right: 65%;
+  height: 200px;
+  background-color: gainsboro;
+  background-blend-mode: overlay;
+}
+.techlist {
+  display: block;
+  position: inherit;
+  margin-left: 65%;
+  margin-right: 10%;
+  height: 200px;
+  background-color: gainsboro;
+  background-blend-mode: overlay;
+}
+.list1, .list2{
+  display: inline-flex;
+  padding: 20px;
+}
+.button {
+  background: black;   
+  color: white;   
+}
