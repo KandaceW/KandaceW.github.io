@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Exo+2|Lobster+Two|Righteous&display=swap" rel="stylesheet">
+
+<!--     <link rel="stylesheet" href="/main.css" type="text/ css"></link> -->
+    </head>
+    <style> 
+          * {
+            box-sizing: border-box;
+            @import url('https://fonts.googleapis.com/css?family=Courgette|Exo+2|Lobster+Two|Righteous&display=swap');
+              
+        }
+        
+        body { 
+            background-color: navy;
+            background-image: url("https://github.com/KandaceW/KandaceW.github.io/blob/master/styles/images/blueboards.png?raw=true");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-attachment: fixed;
+        }
+            header {
+            position: fixed;
+            margin-top: 10px;
+            width: 500px;
+            height:60px;
+            background-color: white;
+            opacity: 0.3;        
+        }
+          
+          .column {
+           float: left;
+           width: 33.33%;
+           background-color: turquiose;
+           width: 250px;
+           color: white;
+           opacity: 0.2;
+        }
+           .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            background-color: turquiose; 
+            opacity: 0.2;
+        }
+        
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+            @media screen and (max-width: 600px) {
+            .column {
+            width: 100%;
+         }
+        }
+           .spanner {
+            background-color: white;
+            opacity: 0.3;
+            padding: 3px;
+            text-shadow: 4px 4px 4px #aaa;
+            text-align: justify;
+            font-family: 'Courgette', cursive;
+            color: navy;   
+               
+        }
+            h1, h2, h3 {
+            background-color: white;
+            opacity: 0.3;
+            font-family: 'Righteous', cursive;  
+            color: black;
+            text-shadow: 3px 2px black;
+        }
+            .button {
+             background-colour: black;   
+             color: white;   
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my foundations blog site</h1>
+        <h2>Tech and Core Foundations 2019 Blog</em> Kandace Dev Academy 2019 </h2>
+        <h3>27/4/2019</h3>
+
+        <span class="spanner> My Name is Kandace im 34 a mother of 2 a Hairsdresser for 17 years and re establishing life through
+            education and <em>'keeping with the times'</em> and <strong>LEARNING HEAPS AT DEV<strong></span>
+                     <br>
+        <h3 style="align-content: center;"> Take a sec and check out my links to Technical & Cultral Blogs below </h3>
+    </header>
+    <div class="columm>
+       
+            <ul class="list">
+                <li><button> Core values </button></li>  <a href="blogs/values-identy-blog.html"></a>
+                <li><button> Core values </button></li>
+                <li><button> Core values </button></li>
+            </ul>
+        
+     </div>
+     <div class="row:after>
+        
+            <ul>
+                <li><button herf="blogs/sp2-technicalblog.html"> Technical element positioning </button></li> 
+                <li> <button> Tech Blog </button></li>
+                <li> <button> Tech Blog </button> </li>
+            </ul>
+       
+    </div>
+</body>
+
+</html>
