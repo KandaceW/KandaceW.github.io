@@ -1,34 +1,34 @@
-* {
+* html {
   box-sizing: border-box;
-}
-
-#body {
-  background-color: navy;
   background-image: url("styles/images/blueboards.png");
-  background-repeat: repeat;
-  background-position: cover;
 }
 
-
-.header {
-  display: realitive;
+#bodyhead {
+  display: inline-flex;
+  background-color: navy;
   background-image: url("styles/images/reunion.jpg");
+  width: 90%;
+  height: 30%;
+  margin-top: 20p;
+}
+.header {
+  display: flex;
+  position inherit;
   background-color: #06879e;
-  padding: 20px90%;
   text-align: center;
 }
-h1 {
+.header, h1 {
   font-family: fantasy;
   font-sizing: 45px;
   text-align: center;
   color: dark-gray;
 }
-h2 {
+.header, h2 {
   font-sizing: 25px;
   text-align: center;
   color: dark-gray;
 }
-h3 {
+.header, h3 {
   font-sizing: 20px;
   text-align: center;
   color: dark-gray;
