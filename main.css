@@ -11,8 +11,25 @@ body {
 
 
 .header {
-  background-image: src("styles/images/reunion.jpg");
+  display: realitive;
+  background-image: url("styles/images/reunion.jpg");
   background-color: #06879e;
-  padding: 20px;
+  padding: 20px90%;
   text-align: center;
+}
+h1 {
+  font-family: fantasy;
+  font-sizing: 45px;
+  text-align: center;
+  color: dark-gray;
+}
+h2 {
+  font-sizing: 25px;
+  text-align: center;
+  color: dark-gray;
+}
+h3 {
+  font-sizing: 20px;
+  text-align: center;
+  color: dark-gray;
 }
