@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+#body .header {
   background-color: navy;
   background-image: url("styles/images/blueboards.png");
   background-repeat: repeat;
