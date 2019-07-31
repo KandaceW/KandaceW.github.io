@@ -1,7 +1,6 @@
-* {
-  box-sizing: border-box;
-  background-image: url("styles/images/blueboards.png");
-}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 
 #bodyhead, .header {
   display: inline-flex;
