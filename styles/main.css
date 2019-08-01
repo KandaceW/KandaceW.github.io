@@ -9,14 +9,14 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
   height: 30%;
   margin-top: 20p;
 }
-.header {
+.header3 {
   display: flex;
   position: inherit;
   background-color: #06879e;
   align-content: center;
   text-align: center;
 }
-.header, h1 {
+.header2 {
   background-color: cream;
   padding: 10px;
   font-family: fantasy;
@@ -24,14 +24,14 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
   text-align: center;
   color: #011013;
 }
-.header, h2 {
+.header1 {
   background-color: cream, opacity 70%;
   padding: 10px;
   font-size: 25px;
   text-align: center;
   color: #011013;
 }
-.header, h3 { 
+.header4 { 
   background-color: cream, opacity 70%;
   padding: 10px;
   font-size: 20px;
@@ -39,7 +39,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
   color: #011013;
 }
 .bodycore {
-  position: absolute;
+  display: initial;
   background-color: goldenrod, opacity 70%;
   width: 100%;
   height: 100%;
@@ -72,5 +72,9 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 }
 h1 {
   color: goldenrod;
-  padding: 4px;
+  padding: 3px, blue;
+}
+h2 {
+  color: orangered;
+  padding: 5px, blue;
 }
