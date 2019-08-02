@@ -2,15 +2,17 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 html {
-  background-color: goldenrod;
+  background-image: url("https://raw.githubusercontent.com/KandaceW/KandaceW.github.io/master/styles/images/trippy%20backdrop.jpgdenrod");
 }
 
 #bodyhead, .header {
-  display: inline-flex;
-  background-image: url("styles/images/reunion.jpg");
-  width: 90%;
-  height: 30%;
-  margin-top: 20p;
+  display: inline-block;
+  border-radius: 25%;
+  background-color: #06879e;
+  margin-top: 20px;
+  margin-bottom:700px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .header3 {
   display: flex;
