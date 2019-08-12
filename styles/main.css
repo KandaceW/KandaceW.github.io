@@ -1,17 +1,26 @@
-html */ {
+
+  html, body {
     box-sizing: border-box;
-    border-radius: 10%;
-    background-color: goldenrod, opacity 70%;
-    width: 100%;
-    height: 100%;
-  }
-.divimg {
-  background-image: url=("styles/images/reunion.jpg");
+    display: block;
+    color: -internal-root-color;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #2a5980;
 }
-#bodyhead, .header1 .header2 .header3 .header4{
-  display: inline-block;
-  border-radius: 15%;
-  background-color: #053053;
+*, *:before, *:after {
+  /* box-sizing: inherit; */
+  background-color: #2a5980;
+  border-radius: 10%;
+  border: white 1px;  
+}
+
+*, *::before *:after {
+  box-sizing: inherit;
+  background-color: #7fbff3;
+}
+
+#bodyhead {
   margin-top: 20px;
   margin-bottom:700px;
   margin-left: 10px;

@@ -5,83 +5,102 @@
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../stylez/main.css" rel="stylesheet" type="text/">
     <title> "Sp2-tecnical-blog" </title>
-</head>
-<header class="header">
-    </header>
-<body>
-     <!-- Blog entry -->
-     <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-            <h3>WELCOME TO MY TECHNICAL BLOG</h3>
-            <h5>Lets atempt to find out the difference in relative, absolute, and fixed element positioning? <span class="w3-opacity">April 2019</span></h5>
-        </div>
-
-        <div class="w3-justify">
-            <img src="https://i.ytimg.com/vi/P6UgYq3J3Qs/maxresdefault.jpg" alt="positioning" style="width:100%" class="w3-padding-16">
-            <p><strong>WHAT POSITION!</strong> What elemnt? How do they wor?!</p>
-            <p>SYou will find my basic understanding is obvious, I have put in simple terms below how I percieve these elements and thereabilitys and purposes. I know that there are avenues off each postioing that can change and alter many things to do with the design of a page but i have tried to simply answer the direct question above!
-            </p>
-            <p>Relative - a flexible positioning of an element- where it sits on the page can be moved and place in a position occording to other elements placed on page. in human descriptive terms i would explain it to be for eg. if there was and image on page you would place the element relative to the image by how ever many px for instance. the co-ordanits are bassed on what its workin around... elements are defined to a certain div so the divs essentially if you visualise a div as a box - these are the pieces that are being place on and around each other on page    
-            </p>
-            <p>Absolute - a non flexible positioning of an element. Absolute means that a particularelement is given or assigned a place on the page and becomes cemented there! Its not able to be manipulated by other positions or elemnets it sort of will dictae the other elements to fit around it
-            </p>
-            <p> Fixed - a semi flexible positioning element I see thi as an elemnt that is nevr gone from view! its flexibity come into play when you want to scroll through a page but the fixed elemnt stays in view for what ever reason or purpose the fixed elemet has! it may be a fucntion button for instance to take you back to the top of the page or the page logo and header are always present!
-            </p>
-            <p>Thinking about this and relating to my page layout will no doubt make it sync in better!
-            </p>
-            <p class="w3-left"><button class="w3-button w3-white w3-border"
-                    onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-                    <p> Read enough yet: <a><button><link href="index.html"> RETURN HOME </a></p>
-          
-                    <div class="w3-col l10 m9">
-                        <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
-                        <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</p><br>
-                    </div>
-                </div>
-                <div class="w3-row w3-margin-bottom">
-                    <div class="w3-col l2 m3">
-                        <img src="/w3images/girl.jpg" style="width:90px;">
-                    </div>
-                    <div class="w3-col l10 m9">
-                        <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
-                        <p>Love hats!!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <h1>Welcome to my basic Technical blog</h1>
-
-        <h2>So this is my chosen question for my Technical blog...</h2>
-        <h3> <strong>What are the differences between relative, absolute, and fixed positioning?</strong.> </h3>
-    <br>
-        <p> <em> You will find my basic understanding is obvious, I have put in simple terms below how I percieve these elements and thereabilitys and purposes. I know that there are avenues off each postioing that can change and alter many things to do with the design of a page but i have tried to simply answer the direct question above!
-
-        </em> </p>
-    </div>
+<style>
+        html {
+            background: url(http://tiny.cc/qd02az) no-repeat center fixed;
+            background-size: cover;
     
-   <p> Relative - a flexible positioning of an element- where it sits on the page can be moved and place in a position occording to other elements placed on page. in human descriptive terms i would explain it to be for eg. if there was and image on page you would place the element relative to the image by how ever many px for instance. the co-ordanits are bassed on what its workin around... elements are defined to a certain div so the divs essentially if you visualise a div as a box - these are the pieces that are being place on and around each other on page    
-</p>    
- <p> Absolute - a non flexible positioning of an element. Absolute means that a particularelement is given or assigned a place on the page and becomes cemented there! Its not able to be manipulated by other positions or elemnets it sort of will dictae the other elements to fit around it
+        }
+    
+        body {
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 0;
+    
+        }
+    
+        .header {
+            display: block;
+            height: 150px;
+            border-radius: 10%;
+            background-color: rgb(0, 71, 179, 0.9);
+            padding:10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        .header1 {
+            display: block;
+            padding: 05px;
+            border-radius: 10%;
+            background-color: rgb(0, 71, 179, 0.9);
+            text-align: center;
+            color: whitesmoke;
+        }
+    
+        .container0 {
+            margin: 15px;
+            align-content: center;
+        }
+    
+        .button {
+            margin: 10px;
+            background-color: black;
+            border-radius: 40%;
+            padding: 20px;
+            color: whitesmoke;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    
+        .container {
+            margin: 15px;
+            position: realitive;
+            color: whitesmoke;
+        }
+    
+        .container2 {
+            margin: 15px;
+            position: realitive;
+            color: whitesmoke;
+        }
+    
+        .container3 {
+            margin: 15px;
+            position: realitive;
+            color: whitesmoke;
+        }
+    
+        .text-block {
+            margin: 15px;
+            background-color: rgb(0, 71, 179, 0.9);
+            padding: 40px;
+        }
+    </style>
+    </head>
+    <body>
 
-  
-    </p>
-<p> Fixed - a semi flexible positioning element I see thi as an elemnt that is nevr gone from view! its flexibity come into play when you want to scroll through a page but the fixed elemnt stays in view for what ever reason or purpose the fixed elemet has! it may be a fucntion button for instance to take you back to the top of the page or the page logo and header are always present!
-    <p>
-    </p>  
-<p>
-      The Strengths that these Qualities bring out in me are dependability and support to those who need it they will add to my journey at Dev in a positive light because I will put forward my best efforts I will do what I say I will do and I will adapt when I need to for which my loyalty and Family values in place I can’t help but adopt so to speak any an all at dev that I endeavour to work along side! I can learn and be instructed I am fundamentally able to accept and help and nurture yet as a Leader I am Fair and very good and distributing the weight of a project. This comes from 18+ years as a hair dresser to which 10 of those years I have been Self employed. Over 3 go those 10 years I owned and operated a Salon with at times  up to six Staff members. My staff returned fairness to me they worked hard they were honest and I can say undoubtably they had respect for me. 
-</p>
-<p>Thinking about this and relating to my page layout will no doubt make it sync in better!
-</body>
-    <footer>
-   <p> Read enough yet: <a><link href=index.html>"RETURN HOME"</a>
-</p>
-    </footer>
-</html>
+        <div class="container">
+            <div class="text-block">
+                    <img src="https://i.ytimg.com/vi/P6UgYq3J3Qs/maxresdefault.jpg" alt="positioning" style="width:100%" class="w3-padding-16">
+                    <h3>WELCOME TO MY TECHNICAL BLOG</h3>
+            <h5>Lets atempt to find out the difference in relative, absolute, and fixed element positioning? <span class="w3-opacity">April 2019</span></h5>
+
+                    <p><strong>WHAT POSITION!</strong> What elemnt? How do they work?!</p>
+                    <p>I think you will find my basic understanding is obvious, I have put in simple terms below how I percieve these elements and thereabilitys and purposes. I know that there are avenues off each postioing that can change and alter many things to do with the design of a page but i have tried to simply answer the direct question above!
+                    </p>
+                    <p>Relative - a flexible positioning of an element- where it sits on the page can be moved and place in a position occording to other elements placed on page. in human descriptive terms i would explain it to be for eg. if there was and image on page you would place the element relative to the image by how ever many px for instance. the co-ordanits are bassed on what its workin around... elements are defined to a certain div so the divs essentially if you visualise a div as a box - these are the pieces that are being place on and around each other on page    
+                    </p>
+                    <p>Absolute - a non flexible positioning of an element. Absolute means that a particularelement is given or assigned a place on the page and becomes cemented there! Its not able to be manipulated by other positions or elemnets it sort of will dictae the other elements to fit around it
+                    </p>
+                    <p> Fixed - a semi flexible positioning element I see thi as an elemnt that is nevr gone from view! its flexibity come into play when you want to scroll through a page but the fixed elemnt stays in view for what ever reason or purpose the fixed elemet has! it may be a fucntion button for instance to take you back to the top of the page or the page logo and header are always present!
+                    </p>
+                    <p>Thinking about this and relating to my page layout will no doubt make it sync in better!
+                    </p>
+            </div>
+            <p> Read enough yet: <a><button><link href="index.html"> RETURN HOME </a></p>
+        </div>
+    </body>
+    
+    </html> 
