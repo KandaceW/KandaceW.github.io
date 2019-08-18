@@ -1,0 +1,14 @@
+{
+    "workbench.view.alwaysShowHeaderActions": true,
+    "html.format.endWithNewline": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.maxPreserveNewLines": 2,
+    "html.trace.server": "verbose",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "json.trace.server": "verbose",
+    "tslint.alwaysShowRuleFailuresAsWarnings": false,
+    "tslint.suppressWhileTypeErrorsPresent": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "view-in-browser.customBrowser": "chrome",
+    "vsintellicode.python.completionsEnabled": false
+}
