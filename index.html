@@ -8,40 +8,56 @@
     <title>Foundations Kortare Cohort 2019</title>
     <style>
 
-        *body {
+        html + body {
             box-sizing: border-box;
-            margin: 5px;
-            padding: 0;
-            background-image: src="styles/images/blueboards.png";
-        }
-        .header-container {
             margin: 0;
-            padding: 0:    
+            padding: 0;
+            background: darkpurple;
         }
-          .header-container, h2 {
-                 
+        #header-container {
+            margin: 10, 10, 10, 80%;
+            background: gray;    
         }
-            .container {
+          .header + h1 +h2 {
+           color: aqua;        
+        }
+            .inner-container {
             margin: 15px;
-            position: realitive;
-            color: whitesmoke;
+            background-color: whitesmoke;
+            color: blue;              
+        }
+        #main-container {
+            margin-top: 22%;
+            margin-bottom: 20%;
         }
         
         .text-block {
             margin: 15px;
             background-color: rgb(0, 71, 179, 0.9);
-            padding: 40px;
+            color: turquoise;
+        }
+        h3 + h4 + h5 + h6 {
+            color: turquoise;
+        }
+        #footer-container {
+            margin-top: 18%;
+            background: black;
+            color: aqua;
         }
     </style>
 </head>
-
 <body>
-    <header class="header">
+    <header id="header-container"> 
+       <div class="inner-container>
        <p><h1><b>KANDACE IVY WILLCOX</b></h1></p>
-        <h5> Welcome to my blogsite</h5>
+        <div class="text-box">
+                   <h5> Welcome to my blogsite</h5>
         <h6><span> Enspiral Dev Academy 2019 </span></h6>
         <h3><b>Kotare Cohort</b></h3>
+                             </div>
+        </div>
     </header>
+    <div id="main-container>
     <div class="text-block">
         <h1>KIA ORA PEOPLE</h1>
         <p style="padding: 20px, background-color black, color whitesmoke" ;>
@@ -54,11 +70,16 @@
         <p><a href="sp3-Emotinal-Inteligence-blog.html" to read my Emotional Inteligence Blog></p>
 
                         <br>
+                <footer id="footer-container">
+                                                       <div class="text-box">
                         <p style="background: black, color whitesmoke" ;>
                             <h2>Thank you for reading.</h2>
                         </p>
+                                                                      </div>
+                     </footer>
     </div>
     </div>
+   </div>
 </body>
 
 </html
